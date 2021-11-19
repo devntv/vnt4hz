@@ -1,11 +1,12 @@
 import { Box } from "@material-ui/core";
 import clsx from "clsx";
 import React from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import styles from "./styles.module.css";
 
 function ToggleDarkMode({ Click }) {
-  const [toggleClick, setToggleClick] = React.useState(false);
-  const [toggleFocus, setToggleFocus] = React.useState(false);
+  const [toggleClick, setToggleClick] = useLocalStorage("toggleClicked", false);
+  const [toggleFocus, setToggleFocus] = useLocalStorage("toggleFocus", false);
   const handleClick = () => {
     setToggleFocus(true);
     setToggleClick(!toggleClick);
