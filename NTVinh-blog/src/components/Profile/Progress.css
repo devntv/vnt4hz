@@ -1,0 +1,19 @@
+.Progress{
+    height: 6px !important;
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.Story_pause{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 54px;
+    left: 50%;
+}

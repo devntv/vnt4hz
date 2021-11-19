@@ -1,0 +1,258 @@
+/* avatar online */
+.MuiBadge-dot{
+    height: 22px !important;
+    border-radius: 20px !important;
+    min-width: 22px !important;
+}
+.p-f {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 100%;
+    display: inline-block;
+    /* border: 0.5px solid #e7e7e7; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 999 !important;
+    
+}
+
+.p-f_name{
+    line-height: 16px;
+    padding: 20px;
+    position: relative !important;
+    z-index: 999;
+    box-sizing: border-box !important;
+}
+
+.p-f_name .name{
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: -100px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.p-f_name .tlt{
+    font-size: 15px;
+    color: rgb(184, 184, 184);
+    text-align: center;
+}
+
+.p-f_Image{
+    position: relative;
+    z-index: 999;
+    width: 228px;
+    height : 300px;
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.p-f_Image img{
+    width: 100%;
+}
+
+/* .timeline_content{
+    padding-top: 0px !important;
+    margin-bottom: 20px !important;
+} */
+
+/* Verification css */
+.Verification{
+    color: var(--main-color);
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 18px;
+    filter: brightness(1) invert(0);
+    position: relative;
+    left: 8px;
+    cursor: pointer;
+}
+
+.Verification_hover{
+    position: absolute !important;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ebe9e9;
+    border-radius: 4px;
+    width: 222px;
+    padding: 4px;
+    z-index: 999 !important;
+    text-align: center !important;
+    top: 120%;
+    /* left: -910%; */
+    right: -20px;
+    text-transform: none;
+    color: rgb(48, 50, 54);
+    cursor:default;
+    display: none;
+    
+}
+
+.Verification_hover::after{
+    content: '';
+    border: 10px solid black;
+    border-color: transparent transparent #ebe9e9 transparent ;
+    position: absolute;
+    right: 19px;
+    top: -18px;
+  
+}
+
+.Verification:hover .Verification_hover{
+    display: block;
+}
+
+.hover_owned{
+    color: black;
+    font-weight: bold;
+    display: flex !important;
+    text-align: center;
+    height: 0;
+    position: relative !important;
+    right:-42% !important;
+}
+
+.Verification_hover-center{
+    color: var(--main-color);
+    display: flex;
+    text-align: center;
+    position: relative !important;
+    right:-50% !important;
+    font-size: 24px;
+    
+}
+/* bottom timeline */
+.IconContact{
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 0 !important;
+   
+}
+.Git{
+    margin-right: -20px !important;
+}
+.Linked{
+    font-size: 25px !important;
+    
+}
+
+.Git:hover{
+    transition: all .1s ease-in;
+    color: rgb(5, 197, 165);
+    cursor: pointer;
+}
+.Linked:hover{
+    transition: all .1s ease-in;
+    color: rgb(5, 197, 165);
+    cursor: pointer;
+}
+
+/* bottom timeline */
+
+/* infor */
+.p-f_infor{
+    top: 0;
+    left: 0;
+    margin: -140px 10px 30px;
+    display: block !important;
+ 
+}
+
+.p-f-list_Icon{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    margin-top: -12px;
+    
+}
+
+.P-f_Icon{
+    color: var(--main-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline;
+    font-size: 20px;
+    top: 22px;
+}
+
+.p-f_infor .timeL .timeline_content{
+    margin-top: 0px;
+    margin-bottom: 5px;;
+}
+.timelineItem_text{
+    font-size: 14px !important;
+    color: rgb(22, 22, 22);
+    font-weight: 550 !important;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji !important;
+    
+}
+
+.timelineItem_text > span{
+    font-size: 14px;
+    color: #858585;
+    font-weight: 500;
+}
+
+
+/* button custom */
+.p-f .btn_center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn_center_like{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn_messageIcon{
+    color: #07acf8 !important;
+}
+@media (max-width:959px){
+    .btn_center_like{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}
+
+.btn_center:hover{
+  color: red;
+}
+
+
+/* custom cooking and picture */
+.cooking{
+    background-color: rgb(221, 96, 96) !important;
+}
+
+
+/* skeleton loading profile css */
+.loadingcontentProfile{
+    margin: 0 auto !important;
+    display:block !important;
+   
+}
+
+.loadingGitLinked{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 959px){
+    .loadingcontentProfile{
+       display: flex!important;
+       flex-direction: column !important;   
+       
+    } 
+}
+  

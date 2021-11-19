@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: url('/src/assets/images/dot.png') no-repeat !important ; */
+  background-color: #f0f2f5;
+  /* background: url(./images/tet2.jpg) no-repeat; */
+  /* background-position: left 260px top 60px !important; */
+  background-attachment: fixed !;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

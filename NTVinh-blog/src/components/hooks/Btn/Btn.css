@@ -1,0 +1,48 @@
+.custom_btn{
+    background-color: var(--main-color) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    padding: 1px 12px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    outline: none !important;
+}
+.custom_btn:hover{
+    background-color:rgb(0, 132, 255) !important;
+    transition: all .1s ease-in-out;
+}
+
+.custom_btn .btn_icon_container{
+    color: #000;
+    border-radius: 50px !important;
+    width: 27px !important;
+    height: 27px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #fff !important;
+}
+
+.custom_btn .btn_text{
+    font-size: 15px !important;
+    text-transform: none !important;
+    text-align: center !important;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: cornsilk;
+}
+
+.custom_btn .btn_icon_container > .MuiSvgIcon-root{
+    font-size: 17px !important;
+}
+
+@media (max-width: 991px){
+    .custom_btn{
+        margin: 8px 0px !important;
+    }
+}

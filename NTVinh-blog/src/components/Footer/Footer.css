@@ -1,0 +1,84 @@
+.f-t{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    /* border-radius: 5px; */
+    padding: 20px 25px;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    box-shadow: 0 1px 2px #a7a5a5;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.iconV{
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    color: rgb(0, 226, 215);
+}
+
+.iconTim{
+    color: #fc6666;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative !important;
+    top: -2px !important;
+}
+
+.iconEmail{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative !important;
+    top: -2px !important;
+   
+}
+
+.iconGit{
+    color: rgb(24, 23, 23);
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+
+.f-t-Link{
+    text-decoration: none !important;
+    color: rgb(235, 212, 8);
+    /* background-color: rgb(10, 232, 240); */
+    border-radius: 4px;
+    height: 40px !important;
+    width: 40px !important;
+}
+.f-t-Link:hover{
+    color: rgb(5, 224, 213);
+}
+
+.f-t .f-t-allserve{
+    text-align: center;
+    color: #606770;
+    font-weight: 550;
+    font-size: 14px !important;
+}
+
+.textDevntv{
+    color: rgb(0, 235, 223);
+}
+
+.Signature_svg{
+    height: 40px !important;
+    width: 180px !important;
+    
+}

@@ -1,0 +1,64 @@
+.timeLineCtn{
+    margin-top: -80px;
+   
+}
+
+.timeL{
+    padding: 0 !important;
+    
+}
+
+.timeL .timeL_header-bottom{
+    padding-top: 12px;
+    
+}
+
+.timeL .timeL_item{
+    min-height: 70px !important;
+}
+
+.timeL .MuiTimelineItem-root {
+    min-height: 0px;
+    margin-top: 0px;
+    margin-bottom: auto !important;
+}
+
+.timeL .MuiTimelineItem-missingOppositeContent::before{
+    display: none;
+}
+
+.timeL .timeL_header{
+    color: rgb(5, 197, 165) !important;
+    background-color: var(--main-color) !important; 
+    margin-top: 20px; 
+}
+
+
+/* remain timeline */
+.timeL .timeL_header_dot{
+    color:rgb(5, 197, 165) !important;
+    border-color: var(--main-color) !important;
+}
+
+.timeL .MuiTimelineConnector-root{
+    background-color:  #eee !important;
+    
+}
+
+.timeL .timeL_header > .MuiSvgIcon-root{
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.timeL .timeL-custom{
+    padding-left: 10px !important;
+  
+}
+
+.timeL .timeline_content{
+    padding-top: 0px !important;
+    margin-bottom: 20px;
+    color: rgb(199, 194, 194);
+}
+
