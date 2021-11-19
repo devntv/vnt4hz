@@ -38,10 +38,10 @@ function ToggleDarkMode({ Click }) {
     >
       <Box className={styles["toggle-track"]}>
         <Box className={styles["toggle-track-check"]}>
-          <span className={styles.toggleSun}>🌞</span>
+          <span className={styles.toggleSun}>🌕</span>
         </Box>
         <Box className={styles["toggle-check-x"]}>
-          <span className={styles.toggleMoon}>🌜</span>
+          <span className={styles.toggleMoon}>🌛</span>
         </Box>
       </Box>
       <Box className={styles.toogleThumb}></Box>

@@ -13,7 +13,7 @@
   height: 0;
 }
 .toggleChecked .toggleSun {
-  animation: ease-in-out 0.4s;
+  animation: ease-in-out 0.2s;
 }
 .toggle-track {
   width: 50px;
