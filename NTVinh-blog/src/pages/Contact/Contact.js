@@ -1,11 +1,11 @@
 import { Grid, TextField, Typography } from "@material-ui/core";
-import React, { useState } from "react";
-import DataPft from "../../tiul/DataPft";
 import emailjs from "emailjs-com";
+import React, { useState } from "react";
 //icon
 import { IoIosSend } from "react-icons/io";
 //load
 import Loader from "react-loader-spinner";
+import DataPft from "../../tiul/DataPft";
 //css
 import "./Contact.css";
 
@@ -207,7 +207,6 @@ function Contact() {
         </Grid>
       </div>
       {/* <div className='contactMeme'><span className='bottomMeme'>j</span></div> */}
-      
     </div>
   );
 }

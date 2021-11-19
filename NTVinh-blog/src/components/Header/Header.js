@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-expressions */
-//icon
-// import AccountBalanceOutlinedIcon from '@material-ui/icons/AccountBalanceOutlined';
 import "bootstrap/dist/css/bootstrap.min.css";
 import clsx from "clsx";
 import React, { useState } from "react";
@@ -10,12 +7,9 @@ import useSound from "use-sound";
 import hoverSound from "../../assets/sounds/hoverSound.mp3";
 import modeOff from "../../assets/sounds/modeOff.mp3";
 import modeOn from "../../assets/sounds/modeOn.mp3";
-// import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import DataPfl from "../../tiul/DataPft";
-// import Btn from '../Btn/Btn';
 import ScrollProgress from "../HeaderProgress";
 import ToggleDarkMode from "../ToggleDarkMode";
-//css
 import "./Header.css";
 
 function Header(props) {
@@ -27,24 +21,6 @@ function Header(props) {
 
   const handleMenuClick = () => setClick(!click);
   const handleMenuClose = () => setClick(false);
-
-  // scroll header
-  // const header = useRef();
-  // useEffect(() => {
-  //   if (!header.current) return undefined;
-  //   const currentHeader = header.current
-  //   const sticky = header.offsetTop;
-  //   const scrollCallback = window.addEventListener("scroll", () => {
-  //     if(typeof window !== 'undefined' && window.pageYOffset > sticky){
-  //       currentHeader.classList.add()
-  //     } else {
-  //       currentHeader.classList.remove()
-  //     }
-  //   });
-  //   return () => window?.removeEventListener('scroll', scrollCallback)
-  // }, []);
-
-  // sound
   const [playOn] = useSound(modeOn);
   const [playOff] = useSound(modeOff);
   const multipleDarkModeOn = () => {
@@ -73,7 +49,6 @@ function Header(props) {
         sticky="top"
         className={clsx("header", scrollNav && "sticky")}
       >
-        {/* trang chu - home */}
         <Nav.Link
           onClick={handleMenuClose}
           eventKey="1"

@@ -1,24 +1,20 @@
-import React, { useState, useRef } from "react";
-import Particles from "react-particles-js";
 import Button from "@material-ui/core/Button";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import Loader from "react-loader-spinner";
-import { useEffect } from "react";
-import ReactPlayer from "react-player/youtube";
-import { GoPlay } from "react-icons/go";
+import React, { useEffect, useState } from "react";
 import { AiFillPauseCircle } from "react-icons/ai";
-import useSound from 'use-sound';
-import soundOff from '../../assets/sounds/soundOff.mp3'
-//css
+import { GoPlay } from "react-icons/go";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import Particles from "react-particles-js";
+import ReactPlayer from "react-player/youtube";
+import useSound from "use-sound";
+import soundOff from "../../assets/sounds/soundOff.mp3";
+import VinhdzLoading from "../../components/hooks/VLoading";
 import "./Blog.css";
 
 function Blog() {
   const [loading, setLoading] = useState(true);
   const [mute, setMute] = useState(true);
-  
-  const ranDomborder = Math.trunc(Math.random() * 8);
-  const [playSong] = useSound(soundOff)
-  const audioCurrent = useRef(null)
+
+  const [playSong] = useSound(soundOff);
 
   useEffect(() => {
     const loadingRender = setTimeout(() => {
@@ -28,15 +24,12 @@ function Blog() {
     const song = setTimeout(() => {
       setMute(false);
     }, 152200);
-    
 
     return () => {
       clearTimeout(loadingRender);
       clearTimeout(song);
     };
   }, []);
-
- 
 
   const handleMuted = () => {
     setMute(!mute);
@@ -49,14 +42,7 @@ function Blog() {
   const URL = "https://www.youtube.com/watch?v=CskQGX4Gc94";
 
   return loading ? (
-    <Loader
-      className="loading"
-      type="TailSpin"
-      color="#2e89ff"
-      height={300}
-      width={100}
-      timeout={0}
-    />
+    <VinhdzLoading />
   ) : (
     <>
       <div className="blog">
@@ -100,7 +86,8 @@ function Blog() {
           )}
         </Button>
 
-        <Particles className="lib"
+        <Particles
+          className="lib"
           params={{
             particles: {
               number: {
