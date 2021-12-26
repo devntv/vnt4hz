@@ -51,7 +51,7 @@ function Blog() {
         <Button
           className="btnbLog"
           variant="contained"
-          href="https://www.vinhblog.xyz/"
+          href="https://vdzblog.xyz/"
         >
           Move
           <HiArrowNarrowRight className="ArrowIcon" />

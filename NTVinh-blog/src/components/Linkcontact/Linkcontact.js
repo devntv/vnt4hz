@@ -14,7 +14,7 @@ function Linkcontact() {
       />
       <BottomNavigationAction
         className="Linked"
-        href="https://www.linkedin.com/in/nt-vinh-nguy%E1%BB%85n-b3a6411b9/"
+        href="https://www.linkedin.com/in/devntv/"
         rel="noreferrer"
         target="_blank"
         icon={<LinkedInIcon style={{ fontSize: "33px" }} />}

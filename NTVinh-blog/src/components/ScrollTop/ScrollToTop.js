@@ -5,17 +5,17 @@ import React, { useEffect, useState } from "react";
 import "./ScrollToTop.css";
 const useStyles = makeStyles((theme) => ({
   toTop: {
-    zIndex: 2,
+    zIndex: 9999,
     position: "fixed",
     transition: "all .3s ease-in",
     fontSize: "10px",
     color: "aqua",
-
     "&:hover, &.Mui-focusVisible": {
       transition: ".3s",
       color: "#00ffc4fa",
     },
-    right: "5%",
+    right: "20px",
+    top: "50%",
   },
 }));
 
