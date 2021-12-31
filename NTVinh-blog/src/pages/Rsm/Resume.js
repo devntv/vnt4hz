@@ -121,10 +121,10 @@ function Resume({ theme }) {
         <Grid item className="Sec-Tlt mb_20 ">
           {/* <span></span> */}
 
-          <h4 className="Sec-Tlt_text">Project </h4>
+          <h4 className="Sec-Tlt_text">Infor</h4>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="84"
+            width="74"
             height="8"
             viewBox="0 0 83 7"
             fill="none"
@@ -273,7 +273,7 @@ function Resume({ theme }) {
       <Grid container className="Sec pb_40">
         <Grid item className="Sec-Tlt mb_20 ">
           {/* <span></span> */}
-          <h4 className="Sec-Tlt_text">Work</h4>
+          <h4 className="Sec-Tlt_text">Steps</h4>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="94"
