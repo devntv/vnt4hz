@@ -1,0 +1,19 @@
+.Gmation {
+  background-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  top: -116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  right: 90px;
+  opacity: 0.9;
+}
+.BgAnimation__svg {
+  width: 700px;
+  height: 700px;
+}

@@ -218,6 +218,7 @@ export const GlobalStyles = createGlobalStyle`
      border-radius: 6px;
      transition: all .2s linear !important; 
    }
+
 `;
 
 export const lightTheme = {
@@ -226,6 +227,8 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
+  zero: "0px",
+  hidden: "none",
   mainBg: "#242526 !important",
   body: "#18191a !important",
   text: "#fff !important",

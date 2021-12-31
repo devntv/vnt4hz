@@ -6,16 +6,13 @@ import { formatDistance } from "date-fns";
 import React from "react";
 import { BsArrowRepeat } from "react-icons/bs";
 import { FaHamburger, FaHome, FaLaptopCode, FaWifi } from "react-icons/fa";
+import { GiPositionMarker } from "react-icons/gi";
 import { MdLocationOn } from "react-icons/md";
 import { RiZzzLine } from "react-icons/ri";
 import code from "../assets/images/code.gif";
 import contextshop from "../assets/images/context-shop.jpg";
 import darkmode from "../assets/images/darkmode.png";
 import graph from "../assets/images/graph.jpg";
-import htmlcss from "../assets/images/htmlcss.png";
-// project images
-import js from "../assets/images/js.png";
-import material from "../assets/images/material.png";
 import nodejs from "../assets/images/nodejs.png";
 import p1 from "../assets/images/p1.png";
 import reacrrsm from "../assets/images/reacrrsm.png";
@@ -26,6 +23,10 @@ import reactVflix from "../assets/images/reactVflix.png";
 import reactWork from "../assets/images/reactWork.png";
 import tracker from "../assets/images/tracker.png";
 import vinhstagram from "../assets/images/vinhstagram.png";
+import cybersoft from "../assets/workexperience/cybersoft.jpg";
+import isb from "../assets/workexperience/isb.jpg";
+import ts from "../assets/workexperience/ts.jpg";
+// eslint-disable-next-line import/no-anonymous-default-export
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -124,18 +125,25 @@ export default {
 
   techs: [
     {
-      title: "HTML - CSS",
-      avatar: htmlcss,
+      title: "ISB Vietnam Co,. Limited",
+      avatar: isb,
+      time: "May 2019 - Jun 2019 · 2 mos",
     },
     {
-      title: "JavaScript",
-      avatar: js,
-    },
-    {
-      title: "ReactJS",
-      type: "framework and library",
+      title: "Freelance developer",
       avatar: react,
-      avatarFrameWork: material,
+      time: "Aug 2019 - Oct 2019 · 3 mos",
+    },
+    {
+      title: "Cybersoft Academy",
+      avatar: cybersoft,
+      time: "May 2020 - Nov 2020 · 7 mos",
+    },
+    {
+      title: "Thuocsi.vn",
+      time: "Present",
+      avatar: ts,
+      avatarFrameWork: <GiPositionMarker />,
     },
   ],
   ProfileIcon: [

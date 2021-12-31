@@ -18,6 +18,7 @@ import Typist from "react-typist";
 import GithubLink from "../../components/Customlink/ReponsitoriesLink";
 import BtnLike from "../../components/hooks/BtnLike/BtnLike";
 import VinhdzLoading from "../../components/hooks/VLoading";
+import Gmation from "../../components/svgDesign/Gmation";
 import TimeL from "../../components/TimeLine/TimeL";
 import DataPft from "../../tiul/DataPft";
 import "./Resume.css";
@@ -33,8 +34,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   small: {
-    width: theme.spacing(3),
-    height: theme.spacing(3),
+    width: theme.spacing(4),
+    height: theme.spacing(4),
+    marginTop: "10px",
   },
 }));
 
@@ -44,7 +46,6 @@ function Resume({ theme }) {
   const [loadingBtn, setLoadbtn] = useState(true);
   const [loadingContent, setLoadingcontent] = useState(true);
   const [developing, setDeveloping] = useState(true);
-
   const handleSetDeveloping = () => {
     setTimeout(() => {
       setDeveloping(!developing);
@@ -90,8 +91,11 @@ function Resume({ theme }) {
             ></path>
           </svg>
         </Grid>
-        <Grid item xs={12}>
-          <Typography className="content_about-me">{DataPft.about}</Typography>
+        <Grid item xs={12} style={{ position: "relative" }}>
+          <Box className="content_about-me">
+            {DataPft.about}
+            <Box>{theme === "dark" && <Gmation />}</Box>
+          </Box>
           <span className="signature-top"></span>
           {loadingSingal ? (
             <Loader
@@ -222,7 +226,7 @@ function Resume({ theme }) {
             </Grid>
 
             <Grid item sm={12} md={6} className="Step-skill2">
-              <TimeL title="Tech" icon={<GrTechnology />}>
+              <TimeL title="Work experience" icon={<GrTechnology />}>
                 {DataPft.techs.map((project, key) => (
                   <TimelineItem key={key}>
                     <TimelineSeparator className="timeL-custom">
@@ -237,7 +241,7 @@ function Resume({ theme }) {
                         {project.title}
                       </Typography>
                       <Typography className="timeline-date" variant="caption">
-                        {project.type}
+                        {project.time}
                       </Typography>
                       <Box className="FrameWork">
                         <Avatar
@@ -248,14 +252,9 @@ function Resume({ theme }) {
                         />
 
                         {project.avatarFrameWork ? (
-                          <>
-                            <Avatar
-                              src={project.avatarFrameWork}
-                              ariant="rounded"
-                              alt="avatar of NTV"
-                              className={classes.small}
-                            />
-                          </>
+                          <div className="position">
+                            {project.avatarFrameWork}
+                          </div>
                         ) : (
                           ""
                         )}
