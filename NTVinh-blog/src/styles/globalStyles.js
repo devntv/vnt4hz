@@ -91,7 +91,7 @@ export const GlobalStyles = createGlobalStyle`
    }
 
    .signalture{
-     border-bottom: ${({ theme }) => theme.SolidSignature};  
+     // border-bottom: ${({ theme }) => theme.SolidSignature};  
      transition: all .2s linear;
    }
 
