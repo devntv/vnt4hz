@@ -1,118 +1,106 @@
 /* tab */
-.custom_tabs{
-    margin-bottom: 10px;
-    background-color:  #f3f2f2;
-    border-radius: 4px;
-    
+.custom_tabs {
+  margin-bottom: 10px;
+  background-color: #f3f2f2;
+  border-radius: 4px;
 }
-.custom_tabs .active{
-    color: var(--main-color) !important;
+.custom_tabs .active {
+  color: var(--main-color) !important;
 }
 
-.custom_tabs .customTab_item{
-    /* padding: 0px !important; */
-    min-width: 0px !important;
-    margin-right: 20px !important;
-    text-transform: inherit !important;
-    font-size: 14px !important;
-    font-weight: normal !important;
-    outline-width: 0px !important;
-    /* color: lavender; */
-    
-    
+.custom_tabs .customTab_item {
+  /* padding: 0px !important; */
+  min-width: 0px !important;
+  margin-right: 20px !important;
+  text-transform: inherit !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  outline-width: 0px !important;
+  /* color: lavender; */
 }
 
 /* end tab */
 
 /* card */
 
-.customCard{
-    height: 100%;
-    max-width: 350px !important;
-    border-radius: 5px;
-    overflow: hidden;
-    outline-width: 0px !important;
-    /* box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important; */
-    
-    
+.customCard {
+  height: 100%;
+  max-width: 350px !important;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important;
+  /* box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important; */
 }
 
-.customCard .customCard_img{
-    height: 140px;
+.customCard .customCard_img {
+  height: 140px;
 }
 
-.customCard .customCard_title{
-    font-weight: 550;
-    color: rgb(3, 150, 155);
+.customCard .customCard_title {
+  font-weight: 550;
+  color: rgb(3, 150, 155);
 }
 
-.customCard .customCard_cap{
-    color: rgb(114, 110, 110);
-   
+.customCard .customCard_cap {
+  color: rgb(114, 110, 110);
 }
 /* end card */
 
 /* dialog */
 
-.projectDialog .projectDialog_img{
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-   
+.projectDialog .projectDialog_img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
-.projectDialog .projectDialog_desc{
-    margin-top: 10px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 550;
-    width: 100% !important; 
- 
+.projectDialog .projectDialog_desc {
+  margin-top: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  width: 100% !important;
 }
 
-
-.projectDialog .projectDialog_actions{
-    justify-content: center !important;
-    margin-bottom: 2px !important;
+.projectDialog .projectDialog_actions {
+  justify-content: center !important;
+  margin-bottom: 2px !important;
 }
 
-.projectDialog .projectDialog_icon{
-    cursor: pointer;
-    margin: 0 auto;
-    color: dimgrey;
-    
-
+.projectDialog .projectDialog_icon {
+  cursor: pointer;
+  margin: 0 auto;
+  color: dimgrey;
 }
 
-.projectTitleDiablog{
-    color: rgb(3, 155, 122);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: rgb(37, 36, 36); */
+.projectTitleDiablog {
+  color: rgb(3, 155, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(37, 36, 36); */
 }
 
-.projectDialog .projectDialog_icon:hover{
-    color: var(--main-color);
+.projectDialog .projectDialog_icon:hover {
+  color: var(--main-color);
 }
 
-.btn_ProjectDiablogLive{
-    border-radius: 5px;
-    background-color: #f30947;
-    margin-left: 15px;
-    border: none;
-    padding: 2px 10px;
-   
+.btn_ProjectDiablogLive {
+  border-radius: 5px;
+  background-color: #f30947;
+  margin-left: 15px;
+  border: none;
+  padding: 2px 10px;
 }
-.btn_ProjectDiablogLive > a{
-    color: white;
-    font-weight: 600 !important;
-    font-size: 14px;
-    text-decoration: none;
+.btn_ProjectDiablogLive > a {
+  color: white;
+  font-weight: 600 !important;
+  font-size: 14px;
+  text-decoration: none;
 }
-.btn_ProjectDiablogLive:hover{
-    background-color: rgb(224, 4, 33);
-    transition: all .3s ease-in;
+.btn_ProjectDiablogLive:hover {
+  background-color: rgb(224, 4, 33);
+  transition: all 0.3s ease-in;
 }
 /* end dialog */
